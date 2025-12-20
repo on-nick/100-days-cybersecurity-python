@@ -1,0 +1,24 @@
+Day01
+### What I Learned
+--  Reading files in Python using open() and with
+--  Difference between file modes (r vs w)
+--  How to process files line by line
+--  Why reading line-by-line is important for large log files
+
+##  what i built
+--  A simple Python script that reads a text file line by line
+--  A basic filter that prints only lines containing a specific keyword (e.g., failed)
+
+##  What Failed
+--  Accidentally opened a file using w mode instead of r
+--  Lost the original content of the file
+
+##  How I Fixed It
+--  Switched the file mode from w to r
+--  Understood when to use w, a, and r safely
+--  Re-created the test file and re-ran the script
+
+##  Security Insight
+--  Log files are critical forensic evidence
+--  Using the wrong file mode can destroy important data
+--  Attack detection tools must read logs safely without modifying them
