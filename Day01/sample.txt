@@ -1,0 +1,4 @@
+failed login from Window
+user admin logged in
+failed password attempt
+system rebooted
