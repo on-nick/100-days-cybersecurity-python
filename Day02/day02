@@ -1,0 +1,25 @@
+## what i learned
+--  How to import a Python module using import
+--  Basic use of the re module
+--  How re.search() checks if a word exists in a line
+--  Difference between normal text search and regex search (basic idea)
+
+##  what i built
+--  A simple Python script that:
+--  Reads a file line by line
+--  Prints only the lines that contain the word “failed”
+--  A very basic custom grep-like program
+
+##  What Failed
+--  Initially did not understand why import re was required
+--  Expected the program to print something even when the word was not present
+
+##  How I Fixed It
+--  Learned that re.search() returns nothing (None) if the word is not found
+--  Understood that only matching lines are printed
+--  Tested different words to see how the output changes
+
+##  Security Insight
+--  Searching logs for keywords is the first step in attack detection
+--  Even simple keyword matching can help identify failed login attempts
+--  Automation starts with small scripts like this
