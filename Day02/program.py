@@ -1,4 +1,4 @@
-```
+```python
 import re
 
 # Open the file in read mode
@@ -9,4 +9,4 @@ with open("sample.txt", "r") as file:
         # check if the word 'failed' exists in the line
         if re.search("failed", line):
             print(line)
-```
+
