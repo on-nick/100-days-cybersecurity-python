@@ -1,4 +1,3 @@
-## Day X
 
 ### What I Learned
 - Learned how to use the `time` module to measure execution time
